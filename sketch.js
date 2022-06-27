@@ -21,7 +21,7 @@ let world;
 
 function setup() 
 {
-  createCanvas(500,700);
+  createCanvas(windowWidth,windowHeight);
   engine = Engine.create();
   world = engine.world;
  
